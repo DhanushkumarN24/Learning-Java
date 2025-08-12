@@ -1,0 +1,11 @@
+class Solution {
+    // Just print the space seperated array elements
+    void printArray(int arr[]) {
+        int i=0;
+        while(i<arr.length){
+            System.out.printf("%d ",arr[i]);
+            i++;
+        }
+        
+    }
+}
